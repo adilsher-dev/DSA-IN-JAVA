@@ -21,7 +21,6 @@ public class NextGreater2 {
                     arr[i] = st.isEmpty() ? -1 : st.peek();
                 }
                 st.push(nums[i%n1]);
-            
         }
 
         System.out.print("{");
