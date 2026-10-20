@@ -10,7 +10,9 @@ class Node{
         this.left = null;
         this.right = null;
     }
+
 }
+
 public class PreorderTraversal{
     
 static void preorder(Node root){

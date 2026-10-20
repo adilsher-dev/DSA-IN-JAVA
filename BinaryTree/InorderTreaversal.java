@@ -10,6 +10,7 @@ class Node{
         this.left = null;
         this.right = null;
     }
+    
 }
 
 public class InorderTreaversal {

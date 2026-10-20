@@ -7,16 +7,18 @@ class Node{
     Node right;
 
     Node(){
-
     }
+
     Node(int data){
         this.data = data;
     }
+
     Node(int data,Node left,Node right){
         this.data = data;
         this.left = left;
         this.right = right;
     }
+    
 }
 
 public class BFS {
@@ -27,6 +29,7 @@ public class BFS {
         if(root == null){
             return ans;
         }
+        
         q.offer(root);
         while(!q.isEmpty()){
             int level = q.size();
